@@ -1,0 +1,30 @@
+>> 0x58
+Physical Address: DISK
+
+>> 0x2B
+Physical Address: 0x5B
+
+>> 0x28
+Physical Address: 0x58
+
+>> 0x57
+Physical Address: DISK
+
+>> 0x41
+Physical Address: DISK
+
+for p2.x
+>> 0x58
+Physical Address: 0x58
+
+>> 0x2B
+Physical Address: 0x9B
+
+>> 0x28
+Physical Address: 0x98
+
+>> 0x57
+Physical Address: 0x57
+
+>> 0x41
+Physical Address: 0x81

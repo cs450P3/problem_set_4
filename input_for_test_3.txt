@@ -1,0 +1,7 @@
+>> 0x6
+Page offset: 00
+DISK
+
+>> 0x32
+Page offset: 01
+SEGFAULT

@@ -1,0 +1,43 @@
+wrls-106-214:problem_set_4 David$ g++ -D PROB2 complete_Prob1+2.cpp && ./a.out test2.txt
+>>> 0x58
+Physical Address (PAGE FAULT): 0x58
+>>> 0x2b
+Physical Address (PAGE FAULT): 0x9B
+>>> 0x28
+Physical Address: 0x98
+>>> 0x57
+Physical Address: 0x57
+>>> 0x41
+Physical Address (PAGE FAULT): 0x81
+>>> ^C
+wrls-106-214:problem_set_4 David$ g++ -D PROB1 complete_Prob1+2.cpp && ./a.out test3.txt
+>>> 0x6
+Physical Address: DISK
+>>> 0x32
+Physical Address: SEGFAULT
+>>> ^C
+wrls-106-214:problem_set_4 David$ g++ -D PROB1 complete_Prob1+2.cpp && ./a.out test2.txt
+>>> 0x58
+Physical Address: DISK
+>>> 0x2b
+Physical Address: 0x5B
+>>> 0x28
+Physical Address: 0x58
+>>> 0x57
+Physical Address: DISK
+>>> 0x41
+Physical Address: DISK
+>>> ^C
+wrls-106-214:problem_set_4 David$ g++ -D PROB2 complete_Prob1+2.cpp && ./a.out test2.txt
+>>> 0x58
+Physical Address (PAGE FAULT): 0x58
+>>> 0x2b
+Physical Address (PAGE FAULT): 0x9B
+>>> 0x28
+Physical Address: 0x98
+>>> 0x57
+Physical Address: 0x57
+>>> 0x41
+Physical Address (PAGE FAULT): 0x81
+>>> ^C
+wrls-106-214:problem_set_4 David$
